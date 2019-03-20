@@ -1,4 +1,4 @@
-rsync -avzP --password-file=/etc/rsync.pwd backup@192.168.2.1::ServerMantain/root/test /root/test
+rsync -avzP --password-file=/etc/rsync.pwd backup@192.168.2.1::ServerMantain /root/SeverMantain
 
 #z是压缩 P是显示传输进度
 #--password-file     指定密码文件，如不指定，会在shell中提示手工输入

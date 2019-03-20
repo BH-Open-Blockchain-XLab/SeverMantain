@@ -1,3 +1,5 @@
+CURDIR="`pwd`"/"`dirname $0`"
+cd $CURDIR
 chmod 640 ../configs/rsyncd.conf
 cp ../configs/rsyncd.conf /etc
 read -s -p "输入你的rsync备份密码:" PASSWD
