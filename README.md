@@ -1,2 +1,6 @@
 # SeverMantain
-tools and basic configs for lab server maintain
+Tools,basic configs and kinds of scripts for lab server maintain
+
+## 文件结构说明
+
+
