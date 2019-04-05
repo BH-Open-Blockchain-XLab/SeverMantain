@@ -1,5 +1,3 @@
-su - root
-
 # 创建stack用户
 useradd -s /bin/bash -d /opt/stack -m stack
 # 添加sudo权限
