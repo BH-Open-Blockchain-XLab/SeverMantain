@@ -12,5 +12,9 @@ cp ../configs/sslocal.conf /etc/shadowsocks
 
 chmod 777 /etc/shadowsocks/sslocal.conf
 
+echo ' net.ipv4.tcp_fastopen = 3' >> /etc/sysctl.conf
+sysctl -p
+
+
 
 
