@@ -1,0 +1,1 @@
+sslocal -c /etc/shadowsocks/sslocal.conf -d start
