@@ -1,0 +1,1 @@
+开机自动运行里 /etc/rc.local   service network restart
