@@ -4,6 +4,7 @@ mkdir /etc/docker
 # Setup daemon.
 cat > /etc/docker/daemon.json <<EOF
 {
+"registry-mirrors": ["https://registry.docker-cn.com"],
   "exec-opts": ["native.cgroupdriver=systemd"],
   "log-driver": "json-file",
   "log-opts": {
@@ -20,4 +21,4 @@ mkdir -p /etc/systemd/system/docker.service.d
 
 # Restart Docker
 systemctl daemon-reload
-systemctl restart docke
+systemctl restart docker
