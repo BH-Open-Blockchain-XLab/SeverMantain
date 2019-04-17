@@ -1,1 +1,3 @@
 开机自动运行里 /etc/rc.local   service network restart
+curl 显示no route to host可能是防火墙没关！
+kubelet 可以控制节点pod最大数量
